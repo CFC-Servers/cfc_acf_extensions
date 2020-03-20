@@ -16,5 +16,5 @@ local function canACFDamage( activated, targetEnt, energy, fraera, angle, inflic
     end
 end
 
-hook.Add( "ACF_BulletDamage", "CFC_PvP_CanACFDamage", canACFDamage )
+hook.Add( "ACF_BulletDamage", "CFC_ACFCExtensions_AmmoBoxProtections", canACFDamage )
 
